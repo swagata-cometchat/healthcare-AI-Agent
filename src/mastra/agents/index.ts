@@ -1,1 +1,0 @@
-export { patientFaqAgent } from './patient-faq-agent';
