@@ -39,7 +39,7 @@ cp .env.example .env
 
 3. **Start the server:**
 ```bash
-npm run dev
+npx mastra dev
 ```
 
 4. **Ingest medical knowledge:**
