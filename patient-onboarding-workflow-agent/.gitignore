@@ -1,0 +1,14 @@
+output.txt
+node_modules
+dist
+.mastra
+.env.development
+.env
+*.db
+*.db-*
+**/.DS_Store
+*.log
+coverage/
+.nyc_output/
+temp/
+uploads/
