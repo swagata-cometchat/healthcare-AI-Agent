@@ -42,21 +42,21 @@ npx mastra dev
 
 ### Routine checkup appointment:
 ```bash
-curl -s -X POST http://localhost:4113/api/agents/appointmentCoordinatorAgent/generate \
+curl -s -X POST http://localhost:4111/api/agents/appointmentCoordinatorAgent/generate \
   -H 'Content-Type: application/json' \
   -d '{"messages":[{"role":"user","content":"I need a routine checkup appointment for next week"}]}'
 ```
 
 ### Specialist appointment:
 ```bash
-curl -s -X POST http://localhost:4113/api/agents/appointmentCoordinatorAgent/generate \
+curl -s -X POST http://localhost:4111/api/agents/appointmentCoordinatorAgent/generate \
   -H 'Content-Type: application/json' \
   -d '{"messages":[{"role":"user","content":"I need to see a cardiologist for my heart condition next Friday afternoon"}]}'
 ```
 
 ### Nurse practitioner appointment:
 ```bash
-curl -s -X POST http://localhost:4113/api/agents/appointmentCoordinatorAgent/generate \
+curl -s -X POST http://localhost:4111/api/agents/appointmentCoordinatorAgent/generate \
   -H 'Content-Type: application/json' \
   -d '{"messages":[{"role":"user","content":"I need a flu shot vaccination"}]}'
 ```
@@ -106,7 +106,7 @@ The response includes appointment details, routing information, and a summary li
 
 - `POST /api/agents/appointmentCoordinatorAgent/generate` — Schedule appointments and receive medical routing
 
-Expected local base: `http://localhost:4113/api`
+Expected local base: `http://localhost:4111/api`
 
 ## Project Structure
 
@@ -210,21 +210,21 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ### Test General Practitioner Routing
 ```bash
-curl -X POST http://localhost:4113/api/agents/appointmentCoordinatorAgent/generate \
+curl -X POST http://localhost:4111/api/agents/appointmentCoordinatorAgent/generate \
   -H 'Content-Type: application/json' \
   -d '{"messages":[{"role":"user","content":"I need a routine physical exam"}]}'
 ```
 
 ### Test Specialist Routing
 ```bash
-curl -X POST http://localhost:4113/api/agents/appointmentCoordinatorAgent/generate \
+curl -X POST http://localhost:4111/api/agents/appointmentCoordinatorAgent/generate \
   -H 'Content-Type: application/json' \
   -d '{"messages":[{"role":"user","content":"I need to see a dermatologist for a skin condition"}]}'
 ```
 
 ### Test Nurse Practitioner Routing
 ```bash
-curl -X POST http://localhost:4113/api/agents/appointmentCoordinatorAgent/generate \
+curl -X POST http://localhost:4111/api/agents/appointmentCoordinatorAgent/generate \
   -H 'Content-Type: application/json' \
   -d '{"messages":[{"role":"user","content":"I need a wellness check and blood pressure monitoring"}]}'
 ```
