@@ -277,3 +277,5 @@ For issues and questions:
 - Check the troubleshooting section above
 - Review Mastra documentation: [https://mastra.ai/docs](https://mastra.ai/docs)
 - Verify your environment setup and API keys
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=swagata-cometchat" alt="swagata-cometchat" /> </p>
