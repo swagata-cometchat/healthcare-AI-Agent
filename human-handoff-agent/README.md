@@ -236,3 +236,5 @@ For issues and questions:
 ---
 
 **Remember**: This is a demonstration application. For production medical applications, ensure proper medical oversight, compliance with healthcare regulations, and integration with qualified medical professionals.
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=swagata-cometchat" alt="swagata-cometchat" /> </p>
